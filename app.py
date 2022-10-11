@@ -33,5 +33,4 @@ db = SQL("sqlite:///database.db")
 
 @app.route("/")
 def home():
-    header_text = "ยินดีต้อนรับสู่นอนไม่หลับ"
     return render_template("site/index.html", header_text = header_text)
