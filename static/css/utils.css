@@ -1,11 +1,14 @@
 @font-face{
-    font-family: "baan";
-    src: url("../fonts/baan.ttf") format("truetype");
+    font-family: "headers";
+    src: url("../fonts/1.otf") format("opentype");
+}
+@font-face{
+    font-family: "paragraphs";
+    src: url("../fonts/2.ttf") format("truetype");
 }
 :root{
     --primary_color_light: ;
     --secondary_color_light: ;
     --primary_color_dark: ;
     --secondary_color_dark: ;
-
 }
