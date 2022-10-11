@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'baan';
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    width: 100vw;
+    box-shadow: 1px 1px 3px black;
+    position: fixed;
+}
+.logo{
+    color: white;
+    font-size: 40px;
+    margin-top: -10px;
+    height: 70px;
+}
+.navlink{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+.icon{
+    height: 30px;
+    margin: 0px 10px;
+}
+#banner{
+    width: 100%;
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 200px;
+    padding-left: 20px
+}
+main{
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+}
+footer{
+    padding: 20px;
+    color: white;
+}
+h3{
+    font-size: 20px;
+}
+main div{
+    margin: 10px;
+}
+.main-column{
+    width: 60%;
+}
+.side-column{
+    width: 40%;
+}

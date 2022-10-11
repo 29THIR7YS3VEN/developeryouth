@@ -1,0 +1,13 @@
+@font-face{
+    font-family: "baan";
+    src: url("../fonts/baan.ttf") format("truetype");
+}
+:root{
+    --primary_color_light: #a3001e;
+    --secondary_color_light: #fce8ec;
+    --primary_color_sepia: sienna;
+    --secondary_color_sepia: #ffd676;
+    --primary_color_dark: #000000;
+    --secondary_color_dark: #ffffff;
+
+}
