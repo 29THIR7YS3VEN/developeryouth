@@ -13,5 +13,15 @@ CREATE TABLE users (
   -- customizable user info
   profile_photo_path TEXT,
   banner_photo_path TEXT,
-  user_bio TEXT, 
+  user_bio TEXT 
+);
+
+CREATE TABLE projects (
+  project_id INTEGER PRIMARY_KEY,
+  project_name TEXT,
+  project_description TEXT,
+  project_photo TEXT,
+  creator TEXT,
+  contributors TEXT,
+  date_created TEXT
 );
