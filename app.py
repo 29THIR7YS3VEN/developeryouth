@@ -49,8 +49,6 @@ def not_extended(510)
     return render_template('errors/510.html'), 510
 
 
-
-
 @app.route("/")
 def home():
-    return render_template("site/index.html", header_text = header_text)
+    return render_template("site/index.html")
