@@ -44,9 +44,9 @@ def forbidden(e):
 def internal_server_error(e):
     return render_template('errors/500.html'), 500
 
-@app.errorhandler(510)
+@app.errorhandler(501)
 def not_extended(e):
-    return render_template('errors/510.html'), 510
+    return render_template('errors/510.html'), 501
 
 
 @app.route("/")
